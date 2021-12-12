@@ -1,0 +1,19 @@
+package com.sist.algo;
+
+import java.util.Scanner;
+
+public class algoTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//빅O표기법
+		//컴퓨터에서 1초란
+		long a;
+		Scanner sc = new Scanner(System.in);
+		a=sc.nextLong();
+		for(long i=0;i<a;i++)i=i;
+		System.out.println("붕어");
+		
+	}
+
+}
